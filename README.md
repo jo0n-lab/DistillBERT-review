@@ -190,10 +190,10 @@ loss = self.alpha_ce * loss_ce
             
 - Data and compute power
     - BERT 와 같은 train data (corpus) 사용
-        - $\texttt{The\_corpus=concat(English Wikipedia,Tronto Book Corpus)}$
+        - `The corpus=concat(English Wikipedia,Tronto Book Corpus)`
         - 8*16GB V100 GPU 로 약 90시간 대조군으로 RoBERTa : 1024*32GB V100
             
-      ![싼거 맞냐??](source/Untitled%208.png)
+        ![싼거 맞냐??](source/Untitled%208.png)
             
             싼거 맞냐??
             
@@ -203,11 +203,12 @@ loss = self.alpha_ce * loss_ce
 
 ![                                                            GLUE : score 합산 시 대충 97% 성능](source/Untitled%209.png)
 
-                                                            GLUE : score 합산 시 대충 97% 성능
+    GLUE : score 합산 시 대충 97% 성능
 
 ![downstream task(transfer learning)에서도 우수함                       parmeter 수가 거의 반타작났다. 시간도 0.6배 정도](source/Untitled%2010.png)
 
-downstream task(transfer learning)에서도 우수함                       parmeter 수가 거의 반타작났다. 시간도 0.6배 정도
+    downstream task(transfer learning)에서도 우수함      
+    parmeter 수가 거의 반타작났다. 시간도 0.6배 정도
 
 ![Untitled](source/Untitled%2011.png)
 
@@ -234,7 +235,7 @@ BERT 발표된 후, 다양한 버전의 -BERT 가 만들어짐
 
 일종의 패러다임을 형성해서 진짜
 
-                골수까지 쪽쪽 빨아먹을 정도로 자주 활용되었다.
+            골수까지 쪽쪽 빨아먹을 정도로 자주 활용되었다.
      다음과 같은 이유로 많이 쓰이진 않았을까?
 
 - 단순한 모델
@@ -249,6 +250,6 @@ BERT 발표된 후, 다양한 버전의 -BERT 가 만들어짐
     - NSP : corrupted context
     
 
-![RoBERTa 랑 DistilBERT parameter 에 m 빠짐](source/1_waO5P098KQ93pk-AWv79_A.png)
+![                                                         RoBERTa 랑 DistilBERT parameter 에 m 빠짐](source/1_waO5P098KQ93pk-AWv79_A.png)
 
     RoBERTa 랑 DistilBERT parameter 에 m 빠짐
